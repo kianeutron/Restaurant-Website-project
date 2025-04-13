@@ -1,0 +1,263 @@
+@media screen and (min-width:1024px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: whitesmoke;
+    }
+
+    #slider-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; 
+      }
+      #main-image {
+        width: 630px; /* Adjust as needed */
+        height: 530px;
+        margin-bottom: 10px;
+        position: absolute;
+        top: 55px;
+        left: 30px;
+        border-radius: 7px;
+      }
+      .thumbnail {
+        width: 100px; /* Adjust as needed */
+        height: 100px;
+        cursor: pointer;
+        margin: 5px;
+        position: relative;
+        top: 600px;
+        border-radius: 4px;
+        left: 30px;
+        
+      }
+      .thumbnail-container{
+        display: flex;
+      }
+
+
+  .matn1{
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    left: 750px;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .matn2{
+    color: rgb(69, 68, 68);
+    font-size: 20px;
+    position: absolute;
+    top: 90px;
+    left: 750px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .price{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 150px;
+    left: 750px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .stars{
+    background-image: url(/img/travel\ \(1\).png);
+    width: 130px;
+    height: 130px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 107px;
+    left: 1095px;
+}
+.reviews{
+    color: rgb(78, 77, 77);
+    font-size: 22px;
+    
+    position: absolute;
+    top: 160px;
+    left: 1240px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.line{
+    background-image: url(/img/substract.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 615px;
+    height: 1px;
+    position: absolute;
+    left:750px;
+    top: 250px;
+}
+.types{
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    top: 280px;
+    left: 750px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.type1{
+    width: 160px;
+    height: 50px;
+    background-color: #ff8b00;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 330px;
+    left: 750px;
+    cursor: pointer;
+    border: transparent;
+    font-weight: lighter;
+}
+.type2{
+    width: 160px;
+    height: 50px;
+    background-color: transparent;
+    color: rgb(118, 118, 118);
+    font-size: 20px;
+    position: absolute;
+    top: 330px;
+    left: 955px;
+    cursor: pointer;
+    border: 1px solid gray;
+    font-weight: lighter;
+}
+.guide1{
+    color: #ff8b00;
+    font-size: 20px;
+    position: absolute;
+    top: 280px;
+    left: 1245px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.line2{
+    background-image: url(/img/substract.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 615px;
+    height: 1px;
+    position: absolute;
+    left:750px;
+    top: 430px;
+}
+
+.size{
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    top: 465px;
+    left: 750px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.size1{
+    width: 160px;
+    height: 50px;
+    background-color: #ff8b00;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 515px;
+    left: 750px;
+    cursor: pointer;
+    border: transparent;
+    font-weight: lighter;
+}
+.size2{
+    width: 160px;
+    height: 50px;
+    background-color: transparent;
+    color: rgb(118, 118, 118);
+    font-size: 20px;
+    position: absolute;
+    top: 515px;
+    left: 955px;
+    cursor: pointer;
+    border: 1px solid gray;
+    font-weight: lighter;
+}
+.size3{
+    width: 160px;
+    height: 50px;
+    background-color: transparent;
+    color: rgb(118, 118, 118);
+    font-size: 20px;
+    position: absolute;
+    top: 515px;
+    left: 1160px;
+    cursor: pointer;
+    border: 1px solid gray;
+    font-weight: lighter;
+}
+.guide2{
+    color: #ff8b00;
+    font-size: 20px;
+    position: absolute;
+    top: 465px;
+    left: 1265px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.line3{
+    background-image: url(/img/substract.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 615px;
+    height: 1px;
+    position: absolute;
+    left:750px;
+    top: 615px;
+}
+.box{
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    top: 640px;
+    left: 860px;
+    border: 1px solid gray;
+}
+.addcart{
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    top: 640px;
+    left: 1010px;
+    background-color: #ff8b00;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pointer{
+    background-image: url(/img/down.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    left:955px;
+    top: 647px;
+}
+.cunt{
+    font-size: 30px;
+    color: rgb(77, 77, 77);
+    position: absolute;
+    top: 648px;
+    left: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+}

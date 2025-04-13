@@ -1,0 +1,1423 @@
+@media screen and (min-width:1024px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: rgb(23, 23, 23);
+    }
+    
+    .bigimg{
+     width: 1200px;
+     height: 847px;   
+     background-position: center;
+     background-size: contain;
+     background-repeat: no-repeat;
+     position: absolute;
+     top: -47px;
+     left: -200px;
+     
+    }
+    .sidemenu{
+        background-color: rgb(23, 23, 23);
+        width: 130px;
+        height: 800px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        opacity: 80%;
+    }
+    .menu{
+        background-color: rgb(18, 18, 18);
+        width: 440px;
+        height: 800px;
+        position: absolute;
+        top: 0px;
+        left: 1000px;
+        
+
+    }
+    .menuicon{
+        background-image: url(/img/menu.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 37px;
+        height: 37px;
+        position: absolute;
+        left: 42px;
+        top: 15px;
+    }
+    .customer{
+        background-image: url(/img/customer-service\ \(1\).png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 42px;
+        height: 42px;
+        position: absolute;
+        left: 38px;
+        bottom: 30px;
+    }
+    .remove{
+        background-image: url(/img/remove\ \(1\).png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 130px;
+        height: 2px;
+        position: absolute;
+        left: 0px;
+        top: 70px;
+        opacity: 90%;
+    }
+    .bag{
+        background-image: url(/img/bag\ \(1\).png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 34px;
+        height: 34px;
+        position: absolute;
+        left: 43px;
+        top: 320px;
+    }
+    .location{
+        background-image: url(/img/location\ \(1\).png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 34px;
+        height: 34px;
+        position: absolute;
+        left: 43px;
+        top: 400px;
+    }
+    .contact{
+        background-image: url(/img/contact-mail.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 34px;
+        height: 34px;
+        position: absolute;
+        left: 43px;
+        top: 480px;
+    }
+    .navbar {
+        display: flex;
+        position: absolute;
+        top: 25px;
+        left: 20px;
+      }
+      
+      .nav-link {
+        padding: 5px 5px;
+        margin-right: 20px;
+        text-decoration: none;
+        color: rgb(255, 250, 250);
+        position: relative;
+        font-size: 17px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+      }
+      
+      .nav-link::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -2px;
+        height: 2px;
+        background-color: transparent;
+        transition: background-color 0.3s;
+      }
+      
+      .nav-link:hover::before {
+        background-color: rgb(255, 145, 0);
+      }
+      .signin-btn {
+        border: 2px rgb(255, 145, 0) solid;
+        background-color: transparent;
+        color: rgb(255, 145, 0);
+        font-size: 16px;
+        font-weight: 500;
+        padding: 8px 20px;
+        
+        border-radius: 20px;
+        cursor: pointer;
+        margin-right: 20px;
+        transition: background-color 0.3s, color 0.3s;
+        position: absolute;
+        top: 21px;
+        right: 22px;
+      }
+      
+      .signin-btn:hover {
+        background-color: #323231;
+        color: white;
+        border: white 2px solid;
+      }
+      .matn1header{
+        color: white;
+        font-size: 65px;
+        position: absolute;
+        top: 160px;
+        left: 50px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+      }
+      .logo{
+        background-image: url(/img/restaurant.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: 160px;
+        left: 210px;
+      }
+      .viewmore {
+        border: 2px rgb(255, 145, 0) solid;
+        background-color: transparent;
+        color: rgb(33, 33, 33);
+        font-size: 22px;
+        
+       width: 140px;
+       height: 45px;
+        background-color:rgb(255, 157, 30) ;
+        border-radius: 0px;
+        cursor: pointer;
+        margin-right: 20px;
+        transition: background-color 0.3s, color 0.3s;
+        position: absolute;
+        top: 400px;
+        right: 213px;
+      }
+      
+      .viewmore:hover {
+        background-color: #323231;
+        color: white;
+        border: white 2px solid;
+      }
+      .food1{
+        background-color: #323231;
+        background-image: url(/img/food1header.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 240px;
+        height: 220px;
+        position: absolute;
+        top: 540px;
+        left: -80px;
+        border-radius: 15px;
+      }
+      .food2{
+        background-color: #323231;
+        background-image: url(/img/food2header.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 260px;
+        height: 220px;
+        position: absolute;
+        top: 540px;
+        border-radius: 15px;
+        left: -360px;
+      }
+      .food3{
+        background-color: #323231;
+        background-image: url(/img/food3header.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 260px;
+        height: 220px;
+        position: absolute;
+        top: 540px;
+        border-radius: 15px;
+        left: 180px;
+      }
+      .search{
+        background-image: url(/img/search-interface-symbol.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 34px;
+        height: 34px;
+        position: absolute;
+        left: 43px;
+        top: 250px;
+      }
+      .pizzamenu{
+        width: 100%;
+        height: 100px;
+        border-bottom: #5e5e5e 1px solid;
+        background-color:rgb(15, 14, 14);
+        position: absolute;
+        top: 800px;
+        color: white;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        line-height: 100px;
+        text-align: center;
+
+      }
+      .phase2box1{
+        background-color: rgb(20, 20, 20);
+        width: 100%;
+        height: 315px;
+        position: absolute;
+        top: 900px;
+      }
+      .pizzaicon{
+        width: 50px;
+        height: 50px;
+        background-image: url(/img/pizza.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 828px;
+        left: 580px;
+      }
+      .matn1p2{
+        color: aliceblue;
+        position: absolute;
+        top: 50px;
+        left: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .line1p2{
+        background-image: url(/img/remove\ \(1\).png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 1px;
+        position: absolute;
+        left: 100px;
+        top: 80px;
+        opacity: 90%;
+      }
+      .pizza1p2{
+        width: 80px;
+        height: 80px;
+        background-image: url(/img/pizza1p2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        position: absolute;
+        top: 90px;
+        left: 100px;
+      }
+      .pizza2p2{
+        width: 80px;
+        height: 80px;
+        background-image: url(/img/pizza3p2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        position: absolute;
+        top: 190px;
+        left: 100px;
+      }
+      .matn2p2{
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        top: 97px;
+        left: 200px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:600;
+      }
+      .matn3p2{
+        font-size: 18px;
+        color: rgb(214, 214, 214);
+        position: absolute;
+        top: 130px;
+        left: 200px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+      }
+      .matn4p2{
+        font-size: 23px;
+        color:rgb(255, 145, 0);
+        position: absolute;
+        top: 105px;
+        left: 430px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        
+      }
+      .matn5p2{
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        top: 200px;
+        left: 200px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:600;
+      }
+      .matn6p2{
+        font-size: 18px;
+        color: rgb(214, 214, 214);
+        position: absolute;
+        top: 233px;
+        left: 200px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+      }
+      .matn7p2{
+        font-size: 23px;
+        color:rgb(255, 145, 0);
+        position: absolute;
+        top: 208px;
+        left: 430px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        
+      }
+
+
+
+
+      .matn8p2{
+        color: aliceblue;
+        position: absolute;
+        top: 50px;
+        left: 550px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .line2p2{
+        background-image: url(/img/remove\ \(1\).png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 1px;
+        position: absolute;
+        left: 550px;
+        top: 80px;
+        opacity: 90%;
+      }
+      .pizza3p2{
+        width: 80px;
+        height: 80px;
+        background-image: url(/img/pizza4p2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        position: absolute;
+        top: 90px;
+        left: 550px;
+      }
+      .pizza4p2{
+        width: 80px;
+        height: 80px;
+        background-image: url(/img/pizza55p2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        position: absolute;
+        top: 190px;
+        left: 550px;
+      }
+      .matn9p2{
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        top: 97px;
+        left: 650px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:600;
+      }
+      .matn10p2{
+        font-size: 18px;
+        color: rgb(214, 214, 214);
+        position: absolute;
+        top: 130px;
+        left: 650px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+      }
+      .matn11p2{
+        font-size: 23px;
+        color:rgb(255, 145, 0);
+        position: absolute;
+        top: 105px;
+        left: 880px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        
+      }
+      .matn12p2{
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        top: 200px;
+        left: 650px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:600;
+      }
+      .matn13p2{
+        font-size: 18px;
+        color: rgb(214, 214, 214);
+        position: absolute;
+        top: 233px;
+        left: 650px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+      }
+      .matn14p2{
+        font-size: 23px;
+        color:rgb(255, 145, 0);
+        position: absolute;
+        top: 208px;
+        left: 880px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        
+      }
+      
+
+
+
+
+      .matn15p2{
+        color: aliceblue;
+        position: absolute;
+        top: 50px;
+        left: 1000px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .line3p2{
+        background-image: url(/img/remove\ \(1\).png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 1px;
+        position: absolute;
+        left: 1000px;
+        top: 80px;
+        opacity: 90%;
+      }
+      .pizza5p2{
+        width: 80px;
+        height: 80px;
+        background-image: url(/img/pizza9p2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        position: absolute;
+        top: 90px;
+        left: 1000px;
+      }
+      .pizza6p2{
+        width: 80px;
+        height: 80px;
+        background-image: url(/img/pizza7p2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        position: absolute;
+        top: 190px;
+        left: 1000px;
+      }
+      .matn16p2{
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        top: 97px;
+        left: 1100px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:600;
+      }
+      .matn17p2{
+        font-size: 18px;
+        color: rgb(214, 214, 214);
+        position: absolute;
+        top: 130px;
+        left: 1100px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+      }
+      .matn18p2{
+        font-size: 23px;
+        color:rgb(255, 145, 0);
+        position: absolute;
+        top: 105px;
+        left: 1300px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        
+      }
+      .matn19p2{
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        top: 200px;
+        left: 1100px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:600;
+      }
+      .matn20p2{
+        font-size: 18px;
+        color: rgb(214, 214, 214);
+        position: absolute;
+        top: 233px;
+        left: 1100px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+      }
+      .matn21p2{
+        font-size: 23px;
+        color:rgb(255, 145, 0);
+        position: absolute;
+        top: 208px;
+        left: 1300px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        
+      }
+      
+
+      
+}
+
+
+
+
+
+
+
+.pizzamenu2{
+    width: 100%;
+    height: 100px;
+    border-bottom: #5e5e5e 1px solid;
+    background-color:rgb(15, 14, 14);
+    position: absolute;
+    top: 1200px;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    line-height: 100px;
+    text-align: center;
+
+  }
+  .phase3box1{
+    background-color: rgb(20, 20, 20);
+    width: 100%;
+    height: 345px;
+    position: absolute;
+    top: 1300px;
+  }
+  .burgericon{
+    width: 47px;
+    height: 47px;
+    background-image: url(/img/burger.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 1228px;
+    left: 570px;
+  }
+  .matn1p3{
+    color: aliceblue;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .line1p3{
+    background-image: url(/img/remove\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 1px;
+    position: absolute;
+    left: 100px;
+    top: 80px;
+    opacity: 90%;
+  }
+  .burger1p3{
+    width: 80px;
+    height: 80px;
+    background-image: url(/img/burger1p3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 90px;
+    left: 100px;
+  }
+  .burger2p3{
+    width: 80px;
+    height: 80px;
+    background-image: url(/img/burger2p3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 190px;
+    left: 100px;
+  }
+  .matn2p3{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 97px;
+    left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+  }
+  .matn3p3{
+    font-size: 18px;
+    color: rgb(214, 214, 214);
+    position: absolute;
+    top: 130px;
+    left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .matn4p3{
+    font-size: 23px;
+    color:rgb(255, 145, 0);
+    position: absolute;
+    top: 105px;
+    left: 430px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    
+  }
+  .matn5p3{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+  }
+  .matn6p3{
+    font-size: 18px;
+    color: rgb(214, 214, 214);
+    position: absolute;
+    top: 233px;
+    left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .matn7p3{
+    font-size: 23px;
+    color:rgb(255, 145, 0);
+    position: absolute;
+    top: 208px;
+    left: 430px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    
+  }
+
+
+
+
+  .matn8p3{
+    color: aliceblue;
+    position: absolute;
+    top: 50px;
+    left: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .line2p3{
+    background-image: url(/img/remove\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 1px;
+    position: absolute;
+    left: 550px;
+    top: 80px;
+    opacity: 90%;
+  }
+  .burger3p3{
+    width: 80px;
+    height: 80px;
+    background-image: url(/img/burger3p3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 90px;
+    left: 550px;
+  }
+  .burger4p3{
+    width: 80px;
+    height: 80px;
+    background-image: url(/img/burger4p3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 190px;
+    left: 550px;
+  }
+  .matn9p3{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 97px;
+    left: 650px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+  }
+  .matn10p3{
+    font-size: 18px;
+    color: rgb(214, 214, 214);
+    position: absolute;
+    top: 130px;
+    left: 650px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .matn11p3{
+    font-size: 23px;
+    color:rgb(255, 145, 0);
+    position: absolute;
+    top: 105px;
+    left: 880px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    
+  }
+  .matn12p3{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 650px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+  }
+  .matn13p3{
+    font-size: 18px;
+    color: rgb(214, 214, 214);
+    position: absolute;
+    top: 233px;
+    left: 650px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .matn14p3{
+    font-size: 23px;
+    color:rgb(255, 145, 0);
+    position: absolute;
+    top: 208px;
+    left: 880px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    
+  }
+  
+
+
+
+
+  .matn15p3{
+    color: aliceblue;
+    position: absolute;
+    top: 50px;
+    left: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .line3p3{
+    background-image: url(/img/remove\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 1px;
+    position: absolute;
+    left: 1000px;
+    top: 80px;
+    opacity: 90%;
+  }
+  .burger5p3{
+    width: 80px;
+    height: 80px;
+    background-image: url(/img/burger6p3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 90px;
+    left: 1000px;
+  }
+  .burger6p3{
+    width: 80px;
+    height: 80px;
+    background-image: url(/img/burger5p3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 190px;
+    left: 1000px;
+  }
+  .matn16p3{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 97px;
+    left: 1100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+  }
+  .matn17p3{
+    font-size: 18px;
+    color: rgb(214, 214, 214);
+    position: absolute;
+    top: 130px;
+    left: 1100px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .matn18p3{
+    font-size: 23px;
+    color:rgb(255, 145, 0);
+    position: absolute;
+    top: 105px;
+    left: 1300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    
+  }
+  .matn19p3{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 1100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+  }
+  .matn20p3{
+    font-size: 18px;
+    color: rgb(214, 214, 214);
+    position: absolute;
+    top: 233px;
+    left: 1100px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .matn21p3{
+    font-size: 23px;
+    color:rgb(255, 145, 0);
+    position: absolute;
+    top: 208px;
+    left: 1300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    
+  }
+
+  .box1p4{
+    background-color: white;
+    width: 100%;
+    height: 740px;
+    position: absolute;
+    top: 1640px;
+  }
+  .box2p4{
+    background-color: white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .cut{
+    width: 70px;
+    height: 70px;
+    background-image: url(/img/cutlery.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .sidesmatn{
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    
+  }
+
+  .side1p4{
+    width: 370px;
+    height: 245px;
+    background-image: url(/img/side1p4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    position: absolute;
+    top: 120px;
+    left: 110px;
+  }
+  .side2p4{
+    width: 370px;
+    height: 245px;
+    background-image: url(/img/side2p4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    position: absolute;
+    top: 120px;
+    left: 536px;
+  }
+  .side3p4{
+    width: 370px;
+    height: 245px;
+    background-image: url(/img/side3p4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    position: absolute;
+    top: 120px;
+    left: 963px;
+  }
+
+  .side4p4{
+    width: 370px;
+    height: 245px;
+    background-image: url(/img/Vegetable-Soup-main.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    position: absolute;
+    top: 420px;
+    left: 110px;
+  }
+  .side5p4{
+    width: 370px;
+    height: 245px;
+    background-image: url(/img/side6p4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    position: absolute;
+    top: 420px;
+    left: 536px;
+  }
+  .side6p4{
+    width: 370px;
+    height: 245px;
+    background-image: url(/img/side7p4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    position: absolute;
+    top: 420px;
+    left: 963px;
+  }
+  .subbox-1{
+    width: 130px;
+    height: 60px;
+    background-color: black;
+    opacity: 60%;
+    
+    position: absolute;
+    top: 30px;
+
+  }
+  .subbox-2{
+    width: 130px;
+    height: 60px;
+    background-color: black;
+    opacity: 60%;
+    
+    position: absolute;
+    top: 30px;
+
+  }
+  .subbox-3{
+    width: 130px;
+    height: 60px;
+    background-color: black;
+    opacity: 60%;
+    
+    position: absolute;
+    top: 30px;
+
+  }
+  .subbox-4{
+    width: 130px;
+    height: 60px;
+    background-color: black;
+    opacity: 60%;
+    
+    position: absolute;
+    top: 30px;
+
+  }
+  .subbox-5{
+    width: 130px;
+    height: 60px;
+    background-color: black;
+    opacity: 60%;
+    
+    position: absolute;
+    top: 30px;
+
+  }
+  .subbox-6{
+    width: 130px;
+    height: 60px;
+    background-color: black;
+    opacity: 60%;
+    
+    position: absolute;
+    top: 30px;
+
+  }
+
+  .price1{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 43px;
+    left: 45px;
+  }
+  .price2{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 43px;
+    left: 45px;
+  }
+  .price3{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 43px;
+    left: 45px;
+  }
+  .price4{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 43px;
+    left: 45px;
+  }
+  .price5{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 43px;
+    left: 45px;
+  }
+  .price6{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 43px;
+    left: 45px;
+  }
+  .box1p5{
+    background-color: rgb(23, 23, 23);
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 2380px;
+  }
+  .box2p5{
+    background-color: rgb(23, 23, 23);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .infoicon{
+    width: 50px;
+    height: 50px;
+    background-image: url(info.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%);
+    
+  }
+  .matninfo{
+    color: white;
+    top: 110px;
+    position: absolute;
+    left: 50px;
+    margin-right: 600px;
+    font-size: 19.5px;
+  }
+  .matninfo2{
+    color: white;
+    top: 320px;
+    position: absolute;
+    left: 50px;
+    margin-right: 600px;
+    font-size: 19.5px;
+  }
+  .getto{
+    color: white;
+    top: 50px;
+    position: absolute;
+    left: 50px;
+    margin-right: 600px;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .pic1p5{
+    width: 450px;
+    height: 250px;
+    background-image: url(/img/pic1p5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    border-radius: 7px;
+    box-shadow: black -10px 10px 20px;
+  }
+  .pic2p5{
+    width: 280px;
+    height: 250px;
+    background-image: url(/img/pic2p5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 80px;
+    top: 200px;
+    border-radius: 7px;
+    box-shadow: black -10px 10px 20px;
+  }
+
+  .box1p6{
+    background-color: #2d3917;
+    width: 100%;
+    height: 280px;
+    position: absolute;
+    top: 500px;
+  }
+  .box2p6{
+    background-color: rgb(23, 23, 23);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 390px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .matn1foot{
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+
+  }
+  .matn2foot{
+    color: rgb(223, 223, 223);
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    position: absolute;
+    top: 100px;
+    left: 50px;
+
+  }
+  .matn3foot{
+    color: rgb(223, 223, 223);
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    position: absolute;
+    top: 100px;
+    left: 165px;
+
+  }
+  .matn4foot{
+    color: rgb(223, 223, 223);
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    position: absolute;
+    top: 100px;
+    left: 355px;
+
+  }
+  .matn5foot{
+    color: rgb(223, 223, 223);
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    position: absolute;
+    top: 100px;
+    left: 515px;
+
+  }
+  .matn6foot{
+    color: rgb(223, 223, 223);
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    position: absolute;
+    top: 150px;
+    left: 50px;
+
+  }
+  .matn7foot{
+    color: rgb(223, 223, 223);
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    position: absolute;
+    top: 150px;
+    left: 180px;
+
+  }
+  .matn8foot{
+    color:rgb(223, 223, 223);
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    position: absolute;
+    top: 150px;
+    left: 280px;
+
+  }
+  .instalogo{
+    width: 35px;
+    height: 35px;
+    background-image: url(/img/instagram.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 220px;
+    left: 50px;
+  }
+  .xlogo{
+    width: 35px;
+    height: 35px;
+    background-image: url(/img/twitter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 220px;
+    left: 120px;
+  }
+  .pinterestlogo{
+    width: 40px;
+    height: 40px;
+    background-image: url(/img/pinterest-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 215px;
+    left: 190px;
+  }
+  .youtubelogo{
+    width: 50px;
+    height: 50px;
+    background-image: url(/img/youtube.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 220px;
+    left: 265px;
+  }
+  .matn9foot{
+    color: rgb(223, 223, 223);
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif; 
+    position: absolute;
+    top: 110px;
+    right: 240px;
+  }
+  .email{
+    width: 350px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-size: 15px;
+    position: absolute;
+    right: 170px;
+    top: 150px;
+  }
+  .submit{
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 1px solid gray;
+    position: absolute;
+    top: 150px;
+    right: 70px;
+    color: gray;
+  }
+  
+  
+  
+
+
+
+
+
+
+
+  

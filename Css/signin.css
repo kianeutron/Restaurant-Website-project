@@ -1,0 +1,127 @@
+@media screen and (min-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(26, 26, 26);
+  }
+  .mainbox {
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(40, 40, 40);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 7px;
+    box-shadow: 6px 6px 15px;
+    background-image: url(/img/PicsArt_04-10-05.08.28.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: none;
+    background-size: cover;
+  }
+  .innerbox {
+    width: 500px;
+    height: 600px;
+    background-color: rgb(44, 43, 43);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 6px 6px 15px;
+  }
+  .matn1 {
+    color: rgb(255, 145, 0);
+    font-size: 25px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .matn2 {
+    color: rgb(255, 145, 0);
+    font-size: 18px;
+    position: absolute;
+    left: 30px;
+    top: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .matn3 {
+    color: rgb(255, 145, 0);
+    font-size: 18px;
+    position: absolute;
+    left: 30px;
+    top: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .matn4 {
+    color: rgb(255, 145, 0);
+    font-size: 18px;
+    position: absolute;
+    left: 30px;
+    top: 320px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .fullname {
+    width: 310px;
+    height: 50px;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    position: absolute;
+    top: 155px;
+    left: 30px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  .email {
+    width: 310px;
+    height: 50px;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    position: absolute;
+    top: 255px;
+    left: 30px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  .pass {
+    width: 310px;
+    height: 50px;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    position: absolute;
+    top: 355px;
+    left: 30px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  .last {
+    width: 310px;
+    height: 50px;
+    background-color: rgb(255, 145, 0);
+    box-shadow: 1px 1px 5px rgb(34, 34, 34);
+    position: absolute;
+    top: 440px;
+    left: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .matn5 {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    left: 30px;
+    top: 515px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .matn6 {
+    color: #5151f3;
+    font-size: 16px;
+    position: absolute;
+    left: 225px;
+    top: 515px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
